@@ -7,7 +7,7 @@
     }
 
     const revealCandidates = document.querySelectorAll(
-        '.hero-inner, .section-inner, .closing-inner'
+        '.hero-inner, .section-inner'
     );
     revealCandidates.forEach((el) => el.classList.add('reveal'));
 
